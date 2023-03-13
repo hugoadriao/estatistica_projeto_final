@@ -1,0 +1,61 @@
+---
+title: "Projeto Final de Estatística para Cientistas de Dados"
+author: Hugo Victor dos Santos Silva
+date: "12 de março de 2023"
+output: HugoVictorSantosSilva_Estatística para Cientistas de Dados [23E1_2]_pd.PDF
+---
+
+# Projeto Final de Estatística para Cientistas de Dados
+
+**Professor:** Otto Tavares  
+**Aluno:** Hugo Silva
+
+1. Mostre através de prints que você tem acesso a uma plataforma RStudio (instalado localmente ou nuvem).
+
+![Figura 1. Terminal exibindo o console R](./imagens/has_R.jpeg)
+
+2. Escolha uma base de dados para realizar esse projeto. Essa base de dados será utilizada durante toda sua análise. Essa base necessita ter 4 (ou mais) variáveis de interesse. Caso você tenha dificuldade para escolher uma base, o professor da disciplina irá designar para você.  
+    - A base será a fornecida pelo professor: **BaseDPEvolucaoMensalCisp.csv**
+3. Explique qual o motivo para a escolha dessa base e explique os resultados esperados através da análise.  
+    - Essa base foi escolhida pois é possível gerar um impacto social por meio da análise. Como resultado espero ser capaz de deternimar a especificidade de crime de cada região para que assim seja possível, por exemplo, escolher especialistas na resulução de cada tipo de crime
+4. Carregue a base para o RStudio e comprove o carregamento tirando um print da tela com a base escolhida presente na área "Ambiente"/Enviroment. Detalhe como você realizou o carregamento dos dados.  
+    - Para carregar a base escolhida os seguintes comandos são necessários:
+     ```
+     library(tidyverse)
+     data <- read_csv("caminho/para/o/arquivo.csv")
+     ```
+    - Como resultado temos:
+    ![Figura 2. Workspace com variável data](./imagens/loaded_data_from_csv.jpeg)
+5. Instale e carregue os pacotes de R necessários para sua análise (mostre o código necessário):  
+    a. tidyverse  
+    - Para instala:
+        ```
+        install.package("tidyverse")
+        ```
+    - Para carregar:
+        ```
+        library(tidyverse)
+        ```
+    b. ggplot  
+    - Para instala:
+        ```
+        install.package("ggplot2")
+        ```
+    - Para carregar:
+        ```
+        library(ggplot2)
+        ```
+    c. summarytools  
+    - Para instala:
+        ```
+        install.package("summarytools")
+        ```
+    - Para carregar:
+        ```
+        library(summarytools)
+        ```
+    - Para o caso de _summarytools_ tive problemas com a dependência _stringi_, para resolver foi necessário instala-la:
+        ```
+        install.package("stringi")
+        ```
+6. 
