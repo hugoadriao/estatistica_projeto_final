@@ -194,4 +194,9 @@ plot_ly() %>%
     add_lines(x = data_gruped_by$mes_ano, y = data_gruped_by$hom_culposo, name = "Homicidio Culposo") %>%
     add_lines(x = data_gruped_by$mes_ano, y = data_gruped_by$letalidade_violenta, name = "Letalidade Violenta") %>%
     layout(xaxis = list(title = "Mês-Ano"), yaxis = list(title = "Número de Ocorrências"), title = "Número de casos de Letalidade Violenta e Homicidios Culposos por mês no estado do Rio de Janeiro")
-```
+```  
+
+
+Trabalho pode ser acompanhado em: [GitHub](https://hugoadriao.github.io/estatistica_projeto_final/).  
+
+Acesse: [GitHub](https://github.com/hugoadriao/estatistica_projeto_final) para mais informações.  
