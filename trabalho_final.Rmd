@@ -197,6 +197,6 @@ plot_ly() %>%
 ```  
 
 
-Trabalho pode ser acompanhado em: [GitHub](https://hugoadriao.github.io/estatistica_projeto_final/).  
+Trabalho pode ser acompanhado em: [GitHub Pages](https://hugoadriao.github.io/estatistica_projeto_final/).  
 
 Acesse: [GitHub](https://github.com/hugoadriao/estatistica_projeto_final) para mais informações.  
